@@ -5,7 +5,7 @@ class Sidebar extends Component {
     return (
       <div id="sidebar">
         <img src="theindex.svg" className="logo" alt="the index logo" />
-        <section>
+        <section onClick={this.props.resetAuthor}>
           <h4 className="menu-item active">
             <button>AUTHORS</button>
           </h4>
